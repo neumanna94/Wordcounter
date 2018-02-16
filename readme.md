@@ -25,7 +25,7 @@ _{alexander.daniel.neumann@gmail.com}_
 
 _{HTML, CSS, C#, ASP.NET MVC 1.1.3,Unit Testing}_
 
-_{Specifications}_
+## _{Specifications}_
 ## Class Name: RepeatCounter(inputSentence)
 _{Properties: string sentence, string word, int wordCount}_
 _{Methods: Getters, Setters, WordCount(), WordCount(string oneWord)}_
