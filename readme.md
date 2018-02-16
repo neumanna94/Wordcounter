@@ -38,4 +38,9 @@ _{Methods: Properties getter and setters. WordCount(), WordCount(string oneWord)
 ## Method Name: RepeatCounter.WordCount(inputWord)
 _{Input: string oneWord}_
 _{Output: int total number of counts of oneWord in sentence.}_
-_{Overview: Will convert string to an array based on spaces and then convert everything to lowercase. Will then look for how many time word == sentence[i]}
+_{Overview: Will convert string to an array based on spaces and then convert everything to lowercase. Will then look for how many time word == sentence[i]}_
+
+## Method Name: RepeatCounter.Splitter()
+_{Input:}_
+_{Output: A list of _sentence split indexed by spaces.}_
+_{Overview: Will be used wth WordCount to count the number of times a word is in a sentence.}
