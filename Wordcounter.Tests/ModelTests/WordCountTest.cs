@@ -43,21 +43,29 @@ namespace Wordcounter.Tests
             Console.WriteLine("Splitter Result Word One: " + splitter[0]);
             Console.WriteLine("Splitter Result Word Two: " + splitter[1]);
             Console.WriteLine("Splitter Result Word Three: " + splitter[2]);
-            Assert.AreEqual("thisisaSentence", splitter[0]);
-            Assert.AreEqual("thisisAnotherSentence", splitter[1]);
-            Assert.AreEqual("Test", splitter[2]);
+            Assert.AreEqual("thisisasentence", splitter[0]);
+            Assert.AreEqual("thisisanothersentence", splitter[1]);
+            Assert.AreEqual("test", splitter[2]);
         }
         [TestMethod]
         public void RepeatCounter_WordCountTest()
         {
             RepeatCounter one = new RepeatCounter("Sentence", "Sentence Sentence sentence sentence");
-            RepeatCounter two = new RepeatCounter("SenTence", "Sentence Sentence sentence sentence");
+            RepeatCounter two = new RepeatCounter("SenTence", "Sentence Sentence sentenc sentence");
+            RepeatCounter three = new RepeatCounter("sentence", "sentence? sentence. sentence! sentence");
+            RepeatCounter four = new RepeatCounter("TEST", "TEST test t es t");
 
             one.WordCount();
             two.WordCount();
+            three.WordCount();
+            four.WordCount();
 
-            Assert.AreEqual(2, one.GetWordCount());
-            Assert.AreEqual(0, two.GetWordCount());
+            Assert.AreEqual(4, one.GetWordCount());
+            Assert.AreEqual(3, two.GetWordCount());
+            Assert.AreEqual(4, three.GetWordCount());
+            Assert.AreEqual(2, four.GetWordCount());
+            Assert.AreEqual("Sentence", one.GetWord());
+            Assert.AreEqual("Sentence Sentence sentence sentence", one.GetSentence());
 
         }
 
