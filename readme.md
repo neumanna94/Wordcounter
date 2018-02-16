@@ -35,12 +35,12 @@ _{Specifications}_
 ## Class Name: RepeatCounter(inputSentence)
 _{Properties: string sentence, string word, int wordCount}_
 _{Methods: Properties getter and setters. WordCount(), WordCount(string oneWord)}_
-## Method Name: RepeatCounter.WordCount(inputWord)
-_{Input: string oneWord}_
+## Method Name: RepeatCounter.WordCount()
+_{Input:}_
 _{Output: int total number of counts of oneWord in sentence.}_
-_{Overview: Will convert string to an array based on spaces and then convert everything to lowercase. Will then look for how many time word == sentence[i]}_
+_{Overview: Will convert string to a List based on spaces and then convert everything to lowercase. Will then look for how many time word == sentence[i]. Accounting for commas, periods, questionmarks, exclamation marks. }_
 
 ## Method Name: RepeatCounter.Splitter()
 _{Input:}_
-_{Output: A list of _sentence split indexed by spaces.}_
+_{Output: A list of _sentence split indexed by spaces where each element is converted to LowerCase.}_
 _{Overview: Will be used wth WordCount to count the number of times a word is in a sentence.}

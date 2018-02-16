@@ -52,7 +52,7 @@ namespace Wordcounter.Tests
         {
             RepeatCounter one = new RepeatCounter("Sentence", "Sentence Sentence sentence sentence");
             RepeatCounter two = new RepeatCounter("SenTence", "Sentence Sentence sentenc sentence");
-            RepeatCounter three = new RepeatCounter("sentence", "sentence? sentence. sentence! sentence");
+            RepeatCounter three = new RepeatCounter("sentence", "sentence? sentence. sentence! sentence,");
             RepeatCounter four = new RepeatCounter("TEST", "TEST test t es t");
 
             one.WordCount();

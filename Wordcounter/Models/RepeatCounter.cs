@@ -47,7 +47,7 @@ namespace Wordcounter.Models
 
             for(int i = 0; i < indexedSentence.Count; i ++)
             {
-                if(indexedSentence[i] == _word)
+                if(indexedSentence[i] == _word.ToLower() || indexedSentence[i] == _word.ToLower() + "."|| indexedSentence[i] == _word.ToLower() + "!" || indexedSentence[i] == _word.ToLower() + "?" || indexedSentence[i] == _word.ToLower() + ",")
                 {
                     _wordCount += 1;
                 } else {
@@ -63,15 +63,15 @@ namespace Wordcounter.Models
             {
                 if(_sentence[i].ToString() == " " && j == 0)
                 {
-                    outputList.Add(_sentence.Substring(j,i-j));
+                    outputList.Add(_sentence.Substring(j,i-j).ToLower());
                     j=i;
                 } else if(_sentence[i].ToString() == " " && j > 0)
                 {
-                    outputList.Add(_sentence.Substring(j+1,i-j-1));
+                    outputList.Add(_sentence.Substring(j+1,i-j-1).ToLower());
                     j=i;
                 }
             }
-            outputList.Add(_sentence.Substring(j+1, _sentence.Length-j-1));
+            outputList.Add(_sentence.Substring(j+1, _sentence.Length-j-1).ToLower());
             return outputList;
         }
 
