@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/Wordcounter/Wordcounter/bin/Debug/netcoreapp1.1/Wordcounter.deps.json
+/Users/Guest/Desktop/Wordcounter/Wordcounter/bin/Debug/netcoreapp1.1/Wordcounter.runtimeconfig.json
+/Users/Guest/Desktop/Wordcounter/Wordcounter/bin/Debug/netcoreapp1.1/Wordcounter.runtimeconfig.dev.json
+/Users/Guest/Desktop/Wordcounter/Wordcounter/obj/Debug/netcoreapp1.1/Wordcounter.AssemblyInfo.cs
+/Users/Guest/Desktop/Wordcounter/Wordcounter/bin/Debug/netcoreapp1.1/Wordcounter.dll
+/Users/Guest/Desktop/Wordcounter/Wordcounter/bin/Debug/netcoreapp1.1/Wordcounter.pdb
+/Users/Guest/Desktop/Wordcounter/Wordcounter/obj/Debug/netcoreapp1.1/Wordcounter.dll
+/Users/Guest/Desktop/Wordcounter/Wordcounter/obj/Debug/netcoreapp1.1/Wordcounter.pdb
