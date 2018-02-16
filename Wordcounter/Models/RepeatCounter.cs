@@ -37,12 +37,13 @@ namespace Wordcounter.Models
         }
         public int GetWordCount()
         {
+
             return _wordCount;
         }
 
         public void WordCount()
         {
-            _wordCount = 0; //Putting to 0 incase the function is called multiple times.
+             _wordCount = 0; //Putting to 0 incase the function is called multiple times.
             List<string> indexedSentence = this.Splitter();
 
             for(int i = 0; i < indexedSentence.Count; i ++)

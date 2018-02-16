@@ -1,3 +1,43 @@
 body {
-    background-color: #272727;
+  background-color: #272727;
+}
+.jumbotron {
+  background-color:white;
+}
+.jumbotron h1 {
+  text-align: center;
+}
+label {
+  text-align: center;
+  color: white;
+}
+.form-group {
+  margin-left: 25%;
+  width: 50%;
+}
+/*#results {
+  display: none;
+}*/
+.btn {
+  margin-left: 40%;
+}
+
+h2, h4{
+  color: white;
+  text-align: center;
+}
+div#footer {
+    position:fixed;
+    bottom: 0px;
+    left:0px;
+    width:100%;
+    color:#272727;
+    background:white;
+    text-align: center;
+}
+h6 {
+  text-align: center;
+}
+.btn:hover{
+  color: red;
 }
