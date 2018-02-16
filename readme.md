@@ -6,7 +6,7 @@
 
 ## Description
 
-_{}_
+_{This web "application" takes user input from a form and makes a post request to transfer the user input to a RepeatCounter Model. The repeatcounter model breaks the users sentence input into a list Splitted by spaces. Then finds the number of elements in the list with the same string as the input word.}_
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,7 @@ _{}_
 
 ## Known Bugs
 
-_{}_
+_{None currently known of.}_
 
 ## Support and contact details
 
@@ -25,16 +25,21 @@ _{alexander.daniel.neumann@gmail.com}_
 
 _{HTML, CSS, C#, ASP.NET MVC 1.1.3,Unit Testing}_
 
-### License
-
-*{MIT}*
-
-Copyright (c) 2018 **_{Alexander Neumann @ Epicodus}_**
-
 _{Specifications}_
 ## Class Name: RepeatCounter(inputSentence)
 _{Properties: string sentence, string word, int wordCount}_
-_{Methods: Properties getter and setters. WordCount(), WordCount(string oneWord)}_
+_{Methods: Getters, Setters, WordCount(), WordCount(string oneWord)}_
+
+##Method Name: GetWord(),GetSentence(),GetWordCount()
+_{Input:}_
+_{Output: The respective property of the current RepeatCounter object}_
+_{Overview: Used for the html page to generate content based on form inputs.}_
+
+##Method Name: SetWord(),SetSentence()
+_{Input: string(SetWord, SetSentence)}_
+_{Output: void_
+_{Overview: Used to set the properties of the given RepeatCounter object.}_
+
 ## Method Name: RepeatCounter.WordCount()
 _{Input:}_
 _{Output: int total number of counts of oneWord in sentence.}_
@@ -44,3 +49,9 @@ _{Overview: Will convert string to a List based on spaces and then convert every
 _{Input:}_
 _{Output: A list of _sentence split indexed by spaces where each element is converted to LowerCase.}_
 _{Overview: Will be used wth WordCount to count the number of times a word is in a sentence.}
+
+### License
+
+*{MIT}*
+
+Copyright (c) 2018 **_{Alexander Neumann @ Epicodus}_**

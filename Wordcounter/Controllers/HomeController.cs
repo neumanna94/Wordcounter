@@ -22,9 +22,7 @@ namespace Wordcounter.Controllers
             if(word.Length > 0 && sentence.Length > 0){
                 one.WordCount();
             } else {
-
             }
-
             return View("Index", one);
         }
     }
