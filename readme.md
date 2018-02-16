@@ -30,12 +30,12 @@ _{HTML, CSS, C#, ASP.NET MVC 1.1.3,Unit Testing}_
 _{Properties: string sentence, string word, int wordCount}_
 _{Methods: Getters, Setters, WordCount(), WordCount(string oneWord)}_
 
-##Method Name: GetWord(),GetSentence(),GetWordCount()
+## Method Name: GetWord(),GetSentence(),GetWordCount()
 _{Input:}_
 _{Output: The respective property of the current RepeatCounter object}_
 _{Overview: Used for the html page to generate content based on form inputs.}_
 
-##Method Name: SetWord(),SetSentence()
+## Method Name: SetWord(),SetSentence()
 _{Input: string(SetWord, SetSentence)}_
 _{Output: void_
 _{Overview: Used to set the properties of the given RepeatCounter object.}_
