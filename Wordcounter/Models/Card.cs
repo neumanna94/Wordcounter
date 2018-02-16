@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System;
-namespace Template.Models
+namespace Wordcounter.Models
 {
-    public class TempleObject
+    public class RepeatCounter
     {
     }
 }

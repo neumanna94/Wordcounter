@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Template.Models;
-namespace Template.Tests
+using Wordcounter.Models;
+namespace Wordcounter.Tests
 {
     [TestClass]
-    public class TemplateTest
+    public class WordcounterTests
     {
         [TestMethod, TestCategory("DeckGeneration")]
         public void TestATemplateTestObject()
